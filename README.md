@@ -1,1 +1,1 @@
-Class and Instance Methods in Ruby
+General Programming concepts in Ruby

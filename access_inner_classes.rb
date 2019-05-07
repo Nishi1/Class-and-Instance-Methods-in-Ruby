@@ -19,14 +19,14 @@ class Drawing
   end
 end
 
-a = Drawing.what_am_i
-puts a
+data = Drawing.what_am_i
+puts data
 
-a = Drawing::Triangle.new
-puts a.what_am_i
+obj = Drawing::Triangle.new
+puts obj.what_am_i
 
-a = Drawing::Circle.new
-puts a.what_am_i
+obj = Drawing::Circle.new
+puts obj.what_am_i
 
 =begin
 Output

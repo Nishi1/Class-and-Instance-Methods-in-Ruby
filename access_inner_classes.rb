@@ -2,7 +2,7 @@
 Nested classes in Ruby Implementation
 =end
 class Drawing
-  def self.what_am_i #  Drawing.what_am_i
+  def self.what_am_i #  We can also write Drawing.what_am_i
     "This is a main class method"
   end
 

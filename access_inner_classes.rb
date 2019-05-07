@@ -7,7 +7,7 @@ class Drawing
   end
 
   class Triangle
-	def what_am_i
+    def what_am_i
       "This is a triangle class methos"
     end
   end

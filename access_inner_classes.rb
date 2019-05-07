@@ -8,13 +8,13 @@ class Drawing
 
   class Triangle
     def what_am_i
-      "This is a triangle class methos"
+      "This is a triangle class method"
     end
   end
 
   class Circle
     def what_am_i
-      "This is a circle class methos"
+      "This is a circle class method"
     end
   end
 end
@@ -31,6 +31,6 @@ puts a.what_am_i
 =begin
 Output
 This is a main class method
-This is a triangle class methos
-This is a circle class methos
+This is a triangle class method
+This is a circle class method
 =end

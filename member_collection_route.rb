@@ -1,4 +1,4 @@
-**Difference between collection route and member route in ruby on rails?**
+Difference between collection route and member route in ruby on rails?
 
 
 A member route will require an ID, because it acts on a member. A collection route doesn't because it 

@@ -1,4 +1,5 @@
 =begin
+polymorphism means having many forms.
 In Ruby we can achieve polymorphism using method overriding.
 In Polymorphism, Ruby invokes the actual method during running of the program.
 One way of achieving polymorphism is with inheritance. In this tutorial let us see an example via Inheritance

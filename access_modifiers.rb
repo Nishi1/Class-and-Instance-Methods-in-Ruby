@@ -11,7 +11,7 @@ Private
 Protected
 =end
 
-### Public
+Public
 In this all members are available to everyone to modify.
 Let us see an example Employee class with public members.
     
@@ -34,10 +34,10 @@ class Employee
         end
 end
 
-```
+
 We declared setEmployeeId/getEmployeeId and setEmployeeName/getEmployeeName under public access modifier.
 We can now access these methods anywhere we create Employee objects. Note that in this scenario, we can omit the public specifier, it is taken as public by default.
-```
+
 
 employee1 = Employee.new
 employee1.setEmployeeId(5)
@@ -49,8 +49,9 @@ Output:
 Employee ID is 5
 Employee Name is Water
 
-
-### Private
+-------------------------------------------------------------------------------------------
+    
+Private
 In this the members can only be accessed by functions inside the class.
     
 class Employee
@@ -100,7 +101,8 @@ Fresher Salary is 1000 Rupees
 One Year Experience Salary is 100000 Dollars
 Ten Year Experience Salary is 700000000 Dollars
   
-###Protected
+-------------------------------------------------------------------------------------------------------------------------------
+Protected
 The members in protected class can only be accessed by functions inside subclass. We will see subclass concept in Inheritance.
     
 class Employee
